@@ -1,6 +1,8 @@
 import React from "react"
 import { Component } from 'react'
 import { NavigationItems } from '../../components/navigations/navigationItems/navigationItems';
+import { ConnectToPlaylist} from '../../components/connectToPlaylist/connectToPlaylist'
+
 
 class Connection extends Component {
 
@@ -9,6 +11,7 @@ class Connection extends Component {
         return (
             <div>
                 <NavigationItems />
+                <ConnectToPlaylist />
             </div>
         );
     }
