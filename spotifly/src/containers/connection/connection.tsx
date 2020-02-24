@@ -1,8 +1,8 @@
 import React from "react"
 import { Component } from 'react'
 import { NavigationItems } from '../../components/navigations/navigationItems/navigationItems';
-import { ConnectToPlaylist} from '../../components/connectToPlaylist/connectToPlaylist'
-
+import { ConnectToPlaylist } from '../../components/connectToPlaylist/connectToPlaylist'
+import { Footer } from '../../components/footer/footer';
 
 class Connection extends Component {
 
@@ -12,6 +12,7 @@ class Connection extends Component {
             <div>
                 <NavigationItems />
                 <ConnectToPlaylist />
+                <Footer />
             </div>
         );
     }
