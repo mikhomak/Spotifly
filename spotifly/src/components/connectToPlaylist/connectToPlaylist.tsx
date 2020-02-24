@@ -9,6 +9,7 @@ export const ConnectToPlaylist = () => {
 
     return (
         <div>
+            <Button onClickEvent={log}>Create session</Button>
             <input type="text" />
             <Button onClickEvent={log}>Connect</Button>
         </div>
