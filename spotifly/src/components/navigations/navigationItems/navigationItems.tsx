@@ -8,7 +8,8 @@ interface NavigationItemsProps {
 export const NavigationItems: React.FC<NavigationItemsProps> = (props) => {
     return (
         <div>
-            <NavigationItem name='we'/> 
+            <NavigationItem name='connect'/> 
+            <NavigationItem name='login'/> 
         </div>
     );
 };
